@@ -29,19 +29,20 @@
 
 .title {
   margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 3rem;
   color: #ffffff;
 }
 
 .grid {
+  padding: 2rem;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   width: 90vw;
-  height: 70vh;
   min-width: 350px;
   margin-top: 3rem;
   box-shadow: -6.22302px -6.22302px 18.6691px rgb(129 255 247 / 13%), 6.22302px 6.22302px 18.6691px #000000;
@@ -72,7 +73,7 @@
   align-items: center;
   padding-top: 10px;
   padding-left: 20px;
-  font-size: 18pt;
+  font-size: 12pt;
   border-color: transparent;
   box-shadow: inset -6px -6px 18px rgb(151 255 249 / 13%), inset 6px 2px 15px #000000;
   color: #ffffff;
@@ -90,7 +91,7 @@
   align-items: center;
   padding-top: 10px;
   padding-left: 20px;
-  font-size: 18pt;
+  font-size: 12pt;
   border-color: transparent;
   box-shadow: inset -6px -6px 18px rgb(151 255 249 / 13%), inset 6px 2px 15px #000000;
   color: #ffffff;
@@ -107,8 +108,8 @@
 }
 
 .instructions{
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 @media (max-width: 600px) {
