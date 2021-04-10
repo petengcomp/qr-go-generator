@@ -1,0 +1,15 @@
+.qrcodeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qrcodeColorArea {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
