@@ -1,0 +1,102 @@
+#geral {
+  min-height: 90vh;
+  padding: 36px;
+  text-align: left;
+  box-shadow: -6.22302px -6.22302px 18.6691px rgba(129, 255, 247, 0.13), 6.22302px 6.22302px 18.6691px #000000;
+  border-radius: 10px;
+  max-width:100%;
+  max-height: 60vh;
+  margin-top: 2vh;
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 10vw;
+}
+
+#cont-tam-color{
+  display: flex;
+  margin-bottom: 2vh;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+
+#conteudo textarea {
+  width: 100%;
+  resize: none;
+  padding: 16px;
+  min-height: 26vh;
+}
+
+#dimensoes {
+  margin-top: 0px;
+}
+
+#dimensoes input {
+  max-width: 125px;
+  height: 65px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.boxQR {
+  min-width: 10vw;
+  min-height: 10vw;
+  border-radius: 30px;
+  margin-top: 1vh;
+  margin: 10px;
+  background-color: #2d3142;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -4px -4px 15px rgba(129, 255, 247, 0.13), 4px 4px 15px #000000;
+}
+
+.ButtonRenderDiv{
+  margin-top: 1vh;
+}
+
+#qrCode {
+  margin-top: 1vh;
+  align-items: center;
+  
+}
+
+#qrCode h4 {
+  margin-bottom: 1vh;
+  width: 100%;
+}
+
+#imgCentral {
+  margin-top: 40px;
+}
+
+#colors h4{
+  margin-bottom: 1vh;
+}
+
+#colors {
+  flex: 1;
+  margin-right: 80px;
+}
+
+#imgCentral button {
+  width: 280px;
+  resize: none;
+  padding: 16px;
+  min-height: 12vh;
+  margin-top: 25px;
+  color: #bbbbbb;
+}
+
+#navBar {
+  height: 100vh;
+}
+
+#render-download{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+

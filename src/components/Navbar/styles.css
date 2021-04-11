@@ -1,0 +1,45 @@
+
+
+ #containerBar {
+  box-shadow: -6.22302px -6.22302px 18.6691px rgba(129, 255, 247, 0.13), 6.22302px 6.22302px 18.6691px #000000;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#containerBar #toggles{
+  display: flex;
+  min-height: 60%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#containerBar h1{
+  text-align: center;
+  max-width: 50%;
+}
+
+#containerBar .botaoNavBar {
+  width: 15vh;
+  height: 15vh;
+  box-shadow: -6.22302px -6.22302px 18.6691px rgba(129, 255, 247, 0.13), 6.22302px 6.22302px 18.6691px #000000;
+}
+
+
+.main-nav-active{
+  background-color:#00B19F;
+  margin: 0;
+  box-shadow: inset -6.22302px -6.22302px 18.6691px rgba(129, 255, 247, 0.13), inset 6.22302px 6.22302px 18.6691px #000000;
+  border-radius: 22px;
+  border: 0;
+}
+
+.main-nav-active button{
+  border: none;
+  box-shadow: inset -6.22302px -6.22302px 18.6691px rgba(129, 255, 247, 0.13), inset 6.22302px 6.22302px 18.6691px #000000 !important;
+}

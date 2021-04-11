@@ -1,0 +1,35 @@
+
+.boxQR {
+  width: 240px;
+  height: 240px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin: 10px;
+  background-color: #2d3142;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -4px -4px 15px rgba(129, 255, 247, 0.13), 4px 4px 15px #000000;
+}
+
+
+.buttonQr {
+  box-shadow: -2px -2px 12px rgba(151, 255, 249, 0.2), 6.22302px 6.22302px 18.6691px #000000;
+  border-radius: 150px;
+  padding: 5px 8px 5px;
+  margin-top: 1.2rem;
+}
+
+
+button {
+  width: 270px;
+  resize: none;
+  padding: 16px;
+  
+  margin-top: 25px;
+  color: #bbbbbb;
+}
+
+input {
+  width: 140px;
+}

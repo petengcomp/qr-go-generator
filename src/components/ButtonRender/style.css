@@ -1,0 +1,46 @@
+.ButtonRender{
+  box-shadow: -2px -2px 12px rgba(151, 255, 249, 0.2), 6.22302px 6.22302px 18.6691px #000000;
+  border-radius: 124px;
+  padding: 5px 8px 5px;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+}
+
+.ButtonRenderInput {
+  width: 138px;
+  height: 65px;
+  background: #2D3142;
+  border-radius: 100px;
+  margin-right: 8px;
+  box-shadow: none;
+  outline: none;
+  color: #ffffff;
+  transition: color 0.2s, box-shadow 0.2s;
+  font-size: 20px;
+  
+}
+
+.ButtonRenderInputActive {
+  width: 138px;
+  height: 65px;
+  background: #2D3142;
+  border-radius: 100px;
+  margin-right: 8px;
+  box-shadow: inset -4px -4px 18.6691px rgba(151, 255, 249, 0.1), inset 6.22302px 6.22302px 18.6691px #000000;
+  outline: none;
+  transition: color 0.2s, box-shadow 0.2s;
+  font-size: 20px; 
+  color: #00B19F;
+}
+
+.ButtonRenderInput:last-child{
+  margin-right: 0px;
+}
+
+.ButtonRenderInputActive:last-child {
+  margin-right: 0px;
+}
+
+
+
+
